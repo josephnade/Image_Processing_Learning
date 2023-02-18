@@ -1,0 +1,22 @@
+    ------------------------------------------------------------------------------------
+    + Two images have same histogram or Histogram is a unique representation of an image.
+    
+    - Two image can have same histogram for example vertical half white and half white
+    square and horizontal the same square have same histogram if pixel number is same.
+    Histogram graphic just says which tone we mostly have but do not say where they are.
+    ------------------------------------------------------------------------------------
+    + Can we reconstruct image from histogram?
+    
+    - As I said above histogram does not says location of pixels and histogram is not unique
+    representation of an image
+    ------------------------------------------------------------------------------------
+    + Second pass of Histogram Equalization will produce exactly the same result as the first pass
+
+    - As we saw on the code part first and second equalization is exactly same results.
+    ------------------------------------------------------------------------------------
+    + By seeing histogram can we guess nature of the image
+    - We can estimate nature of the image by seeing histogram. 
+    X label tells us color tone and Y label tells the intensity.
+    On the graph, there are mostly left side pixel (close to 0) data you can estimate this image darker. 
+    When you get close the right side (255) there are bright one.
+    ------------------------------------------------------------------------------------
